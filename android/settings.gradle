@@ -1,0 +1,39 @@
+pluginManagement {
+    // Define the path to the local.properties file
+    def localPropertiesFile = file('local.properties')  // Pointing to root directory directly
+
+    // Check if the file exists
+    if (localPropertiesFile.exists()) {
+        def properties = new Properties()
+        // Load the local.properties file
+        localPropertiesFile.withInputStream { stream ->
+            properties.load(stream)
+        }
+
+        // Get flutter sdk path
+        def flutterSdk = properties.getProperty('flutter.sdk')
+
+        if (flutterSdk == null) {
+            throw new GradleException("flutter.sdk is not defined in local.properties")
+        }
+
+        // Include Flutter tools based on flutterSdk
+        includeBuild("$flutterSdk/packages/flutter_tools/gradle")
+    } else {
+        throw new GradleException("local.properties file is missing.")
+    }
+
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+plugins {
+    id "dev.flutter.flutter-plugin-loader" version "1.0.0"
+    id "com.android.application" version "8.2.2" apply false  // Updated to the latest version
+    id "org.jetbrains.kotlin.android" version "1.8.22" apply false
+}
+
+include ":app"

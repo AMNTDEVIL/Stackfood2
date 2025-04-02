@@ -1,0 +1,2 @@
+C:/Users/User/AndroidStudioProjects/food/android/app/.cxx/Debug/8112k5h3/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/User/AndroidStudioProjects/food/android/app/.cxx/Debug/8112k5h3/armeabi-v7a/CMakeFiles/rebuild_cache.dir

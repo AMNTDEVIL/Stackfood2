@@ -1,0 +1,35 @@
+{
+  "@@locale": "es",
+  "appTitle": "Entrega de comida",
+  "searchPlaceholder": "Busca tu comida favorita...",
+  "whatsOnYourMind": "¿Qué tienes en mente?",
+  "todaysTrends": "Tendencias de hoy",
+  "highlightsForYou": "Ofertas principales para ti",
+  "summerSale": "Venta de verano\n50% de descuento",
+
+  "general": "General",
+  "profile": "Perfil",
+  "myAddress": "Mi dirección",
+  "language": "Idioma",
+  "darkMode": "Modo oscuro",
+
+  "promotionalActivity": "Actividad promocional",
+  "coupon": "Cupón",
+  "loyaltyPoints": "Puntos de fidelidad",
+  "myWallet": "Mi billetera",
+
+  "earnings": "Ganancias",
+  "referAndEarn": "Referir y ganar",
+  "joinAsADeliveryMan": "Unirse como repartidor",
+  "openRestaurant": "Abrir restaurante",
+
+  "helpAndSupport": "Ayuda y soporte",
+  "liveChat": "Chat en vivo",
+  "helpAndSupportMenu": "Ayuda y soporte",
+  "aboutUs": "Acerca de nosotros",
+  "termsAndConditions": "Términos y condiciones",
+  "privacyPolicy": "Política de privacidad",
+  "refundPolicy": "Política de devoluciones",
+  "cancellationPolicy": "Política de cancelación",
+  "shippingPolicy": "Política de envío"
+}

@@ -1,0 +1,52 @@
+import 'package:flutter/material.dart';
+import 'generated/l10n.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'settings.dart';
+import 'language_popup.dart';
+import 'homepage.dart';
+import 'demo.dart';
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatefulWidget {
+  @override
+  _MyAppState createState() => _MyAppState();
+}
+
+class _MyAppState extends State<MyApp> {
+  // Initially set to English
+  Locale _locale = Locale('en', '');
+
+  // Function to change the locale
+  void _changeLanguage(Locale locale) {
+    setState(() {
+      _locale = locale;
+    });
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      locale: _locale,  // Set the app's locale
+      supportedLocales: [
+        Locale('en', ''),
+        Locale('ar', 'AE'),
+        Locale('bn', ''),
+        Locale('es', ''),
+      ],
+      localizationsDelegates: [
+        S.delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,  // Generated localization delegate
+      ],
+      initialRoute: '/home',  // Set the initial route to Home
+      routes: {
+        '/home': (context) => HomePage(changeLanguage: _changeLanguage),
+        '/language': (context) => LanguagePopup(changeLanguage: _changeLanguage),
+      },
+    );
+  }
+}

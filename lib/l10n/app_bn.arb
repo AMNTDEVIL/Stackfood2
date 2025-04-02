@@ -1,0 +1,35 @@
+{
+  "@@locale": "bn",
+  "appTitle": "ফুড ডেলিভারি",
+  "searchPlaceholder": "আপনার প্রিয় খাবারটি অনুসন্ধান করুন...",
+  "whatsOnYourMind": "আপনার মন কি ভাবছে?",
+  "todaysTrends": "আজকের প্রবণতা",
+  "highlightsForYou": "আপনার জন্য শীর্ষ অফার",
+  "summerSale": "গ্রীষ্মকালীন বিক্রি\n50% ছাড়",
+
+  "general": "সাধারণ",
+  "profile": "প্রোফাইল",
+  "myAddress": "আমার ঠিকানা",
+  "language": "ভাষা",
+  "darkMode": "ডার্ক মোড",
+
+  "promotionalActivity": "প্রচারমূলক কার্যক্রম",
+  "coupon": "কুপন",
+  "loyaltyPoints": "লয়্যালটি পয়েন্টস",
+  "myWallet": "আমার ওয়ালেট",
+
+  "earnings": "আয়",
+  "referAndEarn": "রেফার করুন এবং উপার্জন করুন",
+  "joinAsADeliveryMan": "একজন ডেলিভারি ম্যান হিসেবে যোগ দিন",
+  "openRestaurant": "রেস্টুরেন্ট খুলুন",
+
+  "helpAndSupport": "সহায়তা ও সমর্থন",
+  "liveChat": "লাইভ চ্যাট",
+  "helpAndSupportMenu": "সহায়তা এবং সমর্থন",
+  "aboutUs": "আমাদের সম্পর্কে",
+  "termsAndConditions": "শর্তাবলী",
+  "privacyPolicy": "গোপনীয়তা নীতি",
+  "refundPolicy": "ফিরতি নীতি",
+  "cancellationPolicy": "বাতিলকরণ নীতি",
+  "shippingPolicy": "শিপিং নীতি"
+}

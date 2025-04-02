@@ -1,0 +1,35 @@
+{
+  "@@locale": "en",
+  "appTitle": "Food Delivery",
+  "searchPlaceholder": "Search for your favorite food...",
+  "whatsOnYourMind": "What's on your mind?",
+  "todaysTrends": "Today's Trends",
+  "highlightsForYou": "Top Offers for You",
+  "summerSale": "Summer Sale\n50% off",
+
+  "general": "General",
+  "profile": "Profile",
+  "myAddress": "My Address",
+  "language": "Language",
+  "darkMode": "Dark Mode",
+
+  "promotionalActivity": "Promotional Activity",
+  "coupon": "Coupon",
+  "loyaltyPoints": "Loyalty Points",
+  "myWallet": "My Wallet",
+
+  "earnings": "Earnings",
+  "referAndEarn": "Refer & Earn",
+  "joinAsADeliveryMan": "Join as a Delivery Man",
+  "openRestaurant": "Open Restaurant",
+
+  "helpAndSupport": "Help & Support",
+  "liveChat": "Live Chat",
+  "helpAndSupportMenu": "Help & Support",
+  "aboutUs": "About Us",
+  "termsAndConditions": "Terms and Conditions",
+  "privacyPolicy": "Privacy Policy",
+  "refundPolicy": "Refund Policy",
+  "cancellationPolicy": "Cancellation Policy",
+  "shippingPolicy": "Shipping Policy"
+}

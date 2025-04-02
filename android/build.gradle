@@ -1,0 +1,33 @@
+buildscript {
+    ext.kotlin_version='1.9.0'
+    repositories {
+        google()
+        mavenCentral()
+        jcenter() // Some dependencies may require this
+    }
+    dependencies {
+        // Android Gradle Plugin (AGP) version
+        classpath 'com.android.tools.build:gradle:8.2.2'
+        // Google services plugin for Firebase
+        classpath 'com.google.gms:google-services:4.4.2'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        mavenCentral()
+        jcenter()
+    }
+}
+
+rootProject.buildDir = "../build"
+
+subprojects {
+    project.buildDir = "${rootProject.buildDir}/${project.name}"
+    project.evaluationDependsOn(":app")
+}
+
+tasks.register("clean", Delete) {
+    delete rootProject.buildDir
+}

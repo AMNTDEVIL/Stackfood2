@@ -1,0 +1,35 @@
+{
+  "@@locale": "ar",
+  "appTitle": "توصيل الطعام",
+  "searchPlaceholder": "ابحث عن طعامك المفضل...",
+  "whatsOnYourMind": "ماذا في ذهنك؟",
+  "todaysTrends": "اتجاهات اليوم",
+  "highlightsForYou": "أبرز العروض لك",
+  "summerSale": "تخفيضات الصيف\n50% خصم",
+
+  "general": "عام",
+  "profile": "الملف الشخصي",
+  "myAddress": "عنواني",
+  "language": "اللغة",
+  "darkMode": "الوضع المظلم",
+
+  "promotionalActivity": "الأنشطة الترويجية",
+  "coupon": "قسيمة",
+  "loyaltyPoints": "نقاط الولاء",
+  "myWallet": "محفظتي",
+
+  "earnings": "الأرباح",
+  "referAndEarn": "الإحالة والكسب",
+  "joinAsADeliveryMan": "انضم كموصل",
+  "openRestaurant": "افتح مطعم",
+
+  "helpAndSupport": "المساعدة والدعم",
+  "liveChat": "الدردشة المباشرة",
+  "helpAndSupportMenu": "مساعدة ودعم",
+  "aboutUs": "معلومات عنا",
+  "termsAndConditions": "الشروط والأحكام",
+  "privacyPolicy": "سياسة الخصوصية",
+  "refundPolicy": "سياسة الاسترجاع",
+  "cancellationPolicy": "سياسة الإلغاء",
+  "shippingPolicy": "سياسة الشحن"
+}

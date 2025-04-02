@@ -1,0 +1,2 @@
+C:/Users/User/AndroidStudioProjects/food/android/app/.cxx/RelWithDebInfo/69121542/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/User/AndroidStudioProjects/food/android/app/.cxx/RelWithDebInfo/69121542/x86_64/CMakeFiles/rebuild_cache.dir
